@@ -1,0 +1,64 @@
+.list-section{
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0,);
+    margin: auto;
+    width: 410px;
+    text-align: center;
+    color: rgb(50, 141, 220);
+    font-size: 22px;
+}
+    
+ul{
+    text-align: left;
+    padding: 0%;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: rgb(125, 176, 202);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: smaller;
+    box-shadow: 0px 6px 10px  #424242;
+    box-sizing: border-box;
+}
+
+/* ul li i{
+    padding-left: 0.5em;
+    cursor: pointer; */
+    /* padding: 1px; */
+    /* display: inline-block;
+    margin: 0 5px 0 0;
+} */
+
+.checkbox{
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+
+.fa-pen-to-square{
+    /* text-align: right;
+    flex: 1; */
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    /* padding-left: 10px; */
+}
+
+.fa-trash-can{
+    /* text-align: right;
+    margin: 0 10px 0 0;
+    flex: 1; */
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.li-container{
+    position: relative;
+}
